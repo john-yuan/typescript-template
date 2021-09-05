@@ -3,6 +3,7 @@
     "src/**/*.ts"
   ],
   "compilerOptions": {
+    "lib": ["DOM", "ES2016"],
     "target": "es5",
     "module": "commonjs",
     "outDir": "dist",

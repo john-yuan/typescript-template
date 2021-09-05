@@ -1,1 +1,1 @@
-console.log('Start build something great!')
+import './index.less'
