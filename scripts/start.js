@@ -54,7 +54,8 @@ const build = debounce(() => {
 
 process.chdir(ROOT_DIR)
 
-chokidar.watch(SRC_DIR).on('all', () => {
+chokidar.watch(SRC_DIR).on('all', (event, filename) => {
+  console.log(`${event} .${path.sep}${path.relative(ROOT_DIR, filename)}`)
   build()
 })
 
