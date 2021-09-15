@@ -8,6 +8,9 @@ Template project for typescript project with [editorconfig](https://editorconfig
 # install dependencies
 npm install
 
+# start development server
+npm start
+
 # lint your code
 npm run lint
 
@@ -16,4 +19,7 @@ npm run lint:fix
 
 # compile to javascript
 npm run build
+
+# release
+npm run release
 ```

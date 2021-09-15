@@ -17,7 +17,7 @@ const visitDir = (filename, visit) => {
   }
 }
 
-fse.emptyDirSync(DIST_DIR)
+// fse.emptyDirSync(DIST_DIR)
 
 visitDir(SRC_DIR, (filename) => {
   if (/\.(less|svg|png|jpg|jpeg)$/.test(filename)) {
