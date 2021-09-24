@@ -11,7 +11,7 @@ const server = express()
 
 const runCommand = () => {
   return new Promise((resolve) => {
-    childProcess.exec('npm run build', (error, stdout, stderr) => {
+    childProcess.exec('npm run dev', (error, stdout, stderr) => {
       if (error) {
         console.error(error)
       }

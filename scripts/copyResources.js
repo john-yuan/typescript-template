@@ -17,8 +17,6 @@ const visitDir = (filename, visit) => {
   }
 }
 
-// fse.emptyDirSync(DIST_DIR)
-
 visitDir(SRC_DIR, (filename) => {
   if (/\.(less|svg|png|jpg|jpeg)$/.test(filename)) {
     const relativeFilename = path.relative(SRC_DIR, filename)

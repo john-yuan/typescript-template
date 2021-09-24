@@ -1,6 +1,5 @@
 const fse = require('fs-extra')
 const path = require('path')
-const ROOT = path.resolve(__dirname, '..')
-const DIST_DIR = path.resolve(ROOT, 'dist')
+const DIST_DIR = path.resolve(__dirname, '../dist')
 
 fse.emptyDirSync(DIST_DIR)
