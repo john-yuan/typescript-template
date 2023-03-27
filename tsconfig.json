@@ -1,18 +1,16 @@
 {
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx",
-  ],
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "outDir": "dist",
-    "strict": true,
     "declaration": true,
-    "moduleResolution": "node",
     "esModuleInterop": true,
-    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "jsx": "react"
+    "isolatedModules": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es5"
   }
 }

@@ -1,19 +1,25 @@
 # Typescript Template
 
-Template project for typescript project with [editorconfig](https://editorconfig.org/) and eslint ([using Javascript Standard Style](https://standardjs.com/)).
+This repository is a template for [TypeScript](https://www.typescriptlang.org/) projects with [editorconfig](https://editorconfig.org/), [prettier](https://prettier.io/) and [eslint](https://eslint.org/) configured. This project uses [pnpm](https://pnpm.io/) as package manager by default, you can use [npm](https://www.npmjs.com/) if you prefer.
 
-## Get started
+## Commands
 
 ```bash
 # install dependencies
-npm install
+pnpm i
 
-# lint your code
-npm run lint
-
-# lint your code with auto fix
-npm run lint:fix
+# build and run
+pnpm dev
 
 # compile to javascript
-npm run build
+pnpm build
+
+# format with prettier
+pnpm format
+
+# lint with eslint
+pnpm lint
+
+# lint with eslint and fix
+pnpm lint:fix
 ```

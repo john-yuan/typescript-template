@@ -1,1 +1,3 @@
-console.log('Start build something great!')
+import { hello } from './hello'
+
+hello()
